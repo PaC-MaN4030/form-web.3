@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #09122c;
+}
+#show-form-btn {
+  margin: 60px 630px 20px 630px;
+}
+button {
+  padding: 8px;
+  background-color: #e17564;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+div.form {
+  width: 30%;
+  margin: 0px auto;
+  display: none;
+  background-color: #872341;
+  border-radius: 15px;
+}
+div.flex-form-salary {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+}
+input,
+select {
+  width: 100%;
+  display: block;
+  margin: 10px 0;
+  padding: 3px;
+  background-color: #ffc4cd;
+  outline: none;
+  border-radius: 10px;
+}
+h1{
+    width: fit-content;
+    margin:20px auto;
+    color: aliceblue;
+}
